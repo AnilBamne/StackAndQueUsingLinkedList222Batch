@@ -29,6 +29,11 @@ namespace StackAndQueUsingLinkedList222Batch
                     customisedStack.IsEmpty();
                     break;
                 case 3:
+                    CustomisedQueue customisedQueue=new CustomisedQueue();
+                    customisedQueue.Enqueue(56);
+                    customisedQueue.Enqueue(30);
+                    customisedQueue.Enqueue(70);
+                    customisedQueue.Display();
                     break;
                 case 4:
                     break;
