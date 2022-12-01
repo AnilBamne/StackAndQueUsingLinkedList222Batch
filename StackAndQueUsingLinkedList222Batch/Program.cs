@@ -19,6 +19,14 @@ namespace StackAndQueUsingLinkedList222Batch
                     cstack.Display();
                     break;
                 case 2:
+                    CustomisedStack customisedStack=new CustomisedStack();
+                    customisedStack.Push(70);
+                    customisedStack.Push(30);
+                    customisedStack.Push(56);
+                    customisedStack.Display();
+                    customisedStack.Peek();
+                    customisedStack.Pop();
+                    customisedStack.IsEmpty();
                     break;
                 case 3:
                     break;
