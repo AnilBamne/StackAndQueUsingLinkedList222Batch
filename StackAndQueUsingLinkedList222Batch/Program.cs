@@ -36,6 +36,15 @@ namespace StackAndQueUsingLinkedList222Batch
                     customisedQueue.Display();
                     break;
                 case 4:
+                    CustomisedQueue customisedQueue1 = new CustomisedQueue();
+                    customisedQueue1.Enqueue(56);
+                    customisedQueue1.Enqueue(30);
+                    customisedQueue1.Enqueue(70);
+                    customisedQueue1.Display();
+                    customisedQueue1.Dequeu();
+                    customisedQueue1.Display();
+                    customisedQueue1.Dequeu();
+                    customisedQueue1.Display();
                     break;
                 default:
                     break;

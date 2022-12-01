@@ -37,10 +37,24 @@ namespace StackAndQueUsingLinkedList222Batch
                 Console.WriteLine("Queue is empty");
                 return;
             }
+            Console.WriteLine("Elements in Queue are :");
             while (temp != null)                        //Iterating and printing elements
             {
                 Console.Write(temp.data + " ");
                 temp = temp.next;
+            }
+        }
+        //Dequeue method is used for removing elements form list in entered order(FIFO)
+        public void Dequeu()        //UC4 DeQueue method
+        {
+            if (head == null)
+            {
+                Console.WriteLine("\nQueue is empty");
+            }
+            else
+            {
+                Console.WriteLine("\nThe {0} is deleted", head.data);       //removing elements
+                head = head.next;
             }
         }
     }
